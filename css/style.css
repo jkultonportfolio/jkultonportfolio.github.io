@@ -20,13 +20,12 @@
 a {
 	text-decoration:underline;
 	background:none;
-  color:white;
+}
+
+*,a {
+  color:#333333;
 }
 
 a:hover {
-  color:#dedede;
-}
-
-.darkgray {
-  color:#333333;
+  color:#808080;
 }
