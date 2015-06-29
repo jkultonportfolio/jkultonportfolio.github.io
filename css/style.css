@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Karla);
 
-.jumbotron.vertical-center {
+.vertical-center {
 
   background-image: url('http://i.imgur.com/gpb6vUx.jpg');
   background-repeat: no-repeat;
