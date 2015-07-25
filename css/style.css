@@ -12,6 +12,10 @@
   background:#2980b9;
 }
 
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  height:100% !important;
+}
+
 .obi {
   position:absolute;
   bottom:0px;
