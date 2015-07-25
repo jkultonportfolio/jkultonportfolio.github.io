@@ -1,43 +1,36 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
-@import url(http://fonts.googleapis.com/css?family=Karla);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
 
-.vertical-center {
+* {
+  padding:0;
+  margin:0;
+}
 
-  background-image: url('http://i.imgur.com/gpb6vUx.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-	color:#FFF !important;
-	font-family:'Open Sans';
-  margin-bottom:0;
+.container {
+  height:100vh;
+  width:100%;
+  text-align:center;
+  background:#2980b9;
+}
+
+.obi {
+  position:absolute;
+  bottom:0px;
+  left:0;
+  right:0;
+  width:80%;
+  margin:auto;
+  text-align:center;
+}
+
+.tagline {
+  font-size:2em;
+  font-family:'Open Sans';
+  font-weight:100;
   padding-top:10%;
+  color:white;
 }
 
-.header-panel {
-  background:#EEEEEE;
-  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
-  position: absolute;
-  bottom: 150px;
-  left: 50px;
-}
-
-.vertical-center {
-  min-height: 100%;  /* Fallback for vh unit */
-  min-height: 100vh;
-}
-
-.row {
-  position: relative;
-}
-
-a {
-	text-decoration:underline;
-	background:none;
-}
-
-*,a {
-  color:#333333;
-}
-
-a:hover {
-  color:#808080;
+.four-o-four {
+  font-weight:600;
+  font-size:2em;
 }
